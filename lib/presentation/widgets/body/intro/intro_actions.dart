@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_enums.dart';
@@ -34,6 +35,16 @@ class IntoActions extends StatelessWidget {
         },
         width: 160,
       ),
+      context.width < DeviceType.ipad.getMaxWidth()
+          ? const SizedBox(height: 6)
+          : const SizedBox(width: 32),
+      CustomButton(
+        label: 'View My Resume',
+        icon: Icons.picture_as_pdf,
+        borderColor: AppColors.primaryColor,
+        onPressed: _openCV,
+        width: 160,
+      ),
     ];
     return context.width < DeviceType.ipad.getMaxWidth()
         ? Column(
@@ -44,5 +55,14 @@ class IntoActions extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: actions,
           );
+  }
+}
+
+void _openCV() async {
+  const url = 'https://drive.google.com/file/d/16VWVu0jyqTFzc9KcTCHGn-k2K7HJNPDc/view?usp=drive_link';
+  if (await canLaunchUrl(Uri.parse(url))) {
+    await launchUrl(Uri.parse(url), webOnlyWindowName: '_blank');
+  } else {
+    debugPrint('Could not launch $url');
   }
 }

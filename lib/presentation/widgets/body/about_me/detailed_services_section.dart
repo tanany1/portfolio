@@ -15,7 +15,7 @@ class DetailedServicesSection extends StatelessWidget {
       children: [
         FittedBox(
           child: Text(
-            AppStrings.servicesIOffer,
+            AppStrings.technologiesIWorkedWith,
             style: AppStyles.s32,
           ),
         ),

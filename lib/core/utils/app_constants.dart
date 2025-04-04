@@ -6,99 +6,105 @@ abstract class AppConstants {
   static const double appBarHeight = 80;
   static const List<CustomService> services = [
     CustomService(
-      service: 'MOBILE DEVELOPMENT',
-      logo: AppAssets.androidLogo,
+      service: 'Flutter Development For Apps',
+      logo: AppAssets.flutterLogo,
       description:
-          'I am a Junior mobile developer. I have experience using Dart and Flutter Framework.',
+          'Flutter\n'
+              'Dart\n'
+              'Responsive UI\n'
+              'Clean Architecture\n'
+              'MVVM Patter\n'
+              'Api Integration\n',
     ),
     CustomService(
-      service: 'UI & UX DESIGNING',
-      logo: AppAssets.uiDesignLogo,
+      service: 'State Management',
+      logo: AppAssets.stateManagement,
       description:
-          'I design beautiful web interfaces with Figma and Adobe XD. I design beautiful web interfaces with Figma and Adobe XD.',
+          'Bloc\n'
+              'Cubit\n'
+              'Provider\n',
     ),
     CustomService(
-      service: 'WEB SCRAPING',
-      logo: AppAssets.scrappingLogo,
+      service: 'Firebase Integration',
+      logo: AppAssets.firebaseLogo,
       description:
-          'I can collect content and data from the internet then manipulate and analyze as needed.',
+          'Firebase Auth\n'
+              'Firestore\n'
+              'Firebase Storage\n',
+    ),
+    CustomService(
+      service: 'Local Data Storage',
+      logo: AppAssets.localStorageLogo,
+      description:
+      'Hive\n'
+          'Shared Preferences\n',
     ),
   ];
   static const List<Project> projects = [
     Project(
-      name: 'Live score',
-      imageUrl:
-          'https://drive.google.com/uc?id=1ITN6reINiIaM-6j3QqxrwtvADZgLNvwB',
+      name: 'AgriHope',
+      imageUrl: '',
       description:
-          'A football application to display all related matches and rankings in all international and local tournaments',
-      githubRepoLink: 'https://github.com/radyhaggag/live_score',
-      previewLink: 'https://youtu.be/HSIosFd6Sys',
+          'AI & IOT Smart Agriculture For Sustainable and Productive Future (Graduation Project).',
+      githubRepoLink: 'https://github.com/tanany1/agri_hope.git',
     ),
     Project(
-      name: 'Instagram clone',
-      imageUrl:
-          'https://drive.google.com/uc?id=1qNFCNYdUo7o36ythQtjaSrv7L0NV_Vnv',
-      description:
-          'Social media application for share posts and stories with people, One-to-one chat, Share reels videos',
-      githubRepoLink:
-          'https://github.com/radyhaggag/Instagram-Clone-With-Clean-Architecture',
-      previewLink: 'https://youtu.be/MuuVjqrR49g',
+      name: 'NFC Manager',
+      imageUrl: '',
+      description: 'Application to Read And Write NFC Cards.',
+      githubRepoLink: 'https://github.com/tanany1/nfc.git',
     ),
     Project(
-      name: 'TikTok Downloader',
-      imageUrl:
-          'https://drive.google.com/uc?id=1SypuIPVdokg0O4DYoYdswRowlIJAGgIq',
+      name: 'Booth Usher',
+      imageUrl: '',
       description:
-          'An application for download videos from tiktok and save it to gallery.',
-      githubRepoLink: 'https://github.com/radyhaggag/tiktok_downloader',
-      previewLink: 'https://youtu.be/mWeA625pcrI',
+          'Application Made in Part of Advertising Campaign To Enable The Usher In booth To Update The Point User Collected From The Activity.',
+      githubRepoLink: 'https://github.com/tanany1/booth_usher.git',
     ),
     Project(
-      name: 'Bookly',
-      imageUrl:
-          'https://drive.google.com/uc?id=1yQtoq-wjVejWPXRI7gzGMXPUZrRob8kY',
-      description: 'An application to explore books and view their details.',
-      githubRepoLink:
-          'https://github.com/radyhaggag/bookly_app_with_mvvm_and_bloc',
-      previewLink: 'https://youtu.be/3nU_dYjsPsg',
+      name: 'Feastly',
+      imageUrl: '',
+      description:
+          'Meal Application With Ai Integration Made With A Team in Part Of Internship.',
+      githubRepoLink: 'https://github.com/Galal-20/feastly.git',
     ),
     Project(
-      name: 'Image processing',
-      imageUrl:
-          'https://drive.google.com/uc?id=1hd7U3HgoDqXEi9eDKYjrY9iqlWa6qt8E',
+      name: 'Talabat Vending Machine',
+      imageUrl: '',
       description:
-          'An Desktop program for process images and apply some filters to them.',
-      githubRepoLink:
-          'https://github.com/radyhaggag/image_processing_program_with_python_flet',
-      previewLink: 'https://youtu.be/s1KFdBKNFig',
+          'Application Made In Part Of Advertising Campaign For Talabat Egypt.',
+      githubRepoLink: 'https://github.com/tanany1/talabat.git',
     ),
     Project(
-      name: 'Salat al janazah',
-      imageUrl:
-          'https://drive.google.com/uc?id=1UpCGckOS46GdTuHU4wuj7Abo_97gxe_E',
-      description:
-          'An application for add janazah prayer and view the prayers for nearby people',
-      googlePlay:
-          'https://play.google.com/store/apps/details?id=com.SJY.salataljanaza',
-      previewLink: 'https://youtu.be/wK9Y9BhP190',
-    ),
+        name: 'Movies App',
+        imageUrl: '',
+        description: 'Movies Application To Check Movies And Rates An Reviews.',
+        githubRepoLink: 'https://github.com/tanany1/movie_task.git'),
     Project(
-      name: 'Ghaslah',
-      imageUrl:
-          'https://drive.google.com/uc?id=1ed4H2-cH6yk_kVkDdxOLcUkgP1xpuo72',
-      description:
-          'An application for add wash cars reservation with location in map and the picker will come to wash the cars',
-      previewLink: 'https://youtu.be/gkeRSAfCZaI',
-    ),
+        name: 'XO',
+        imageUrl: '',
+        description: 'A Simple XO Game Application.',
+        githubRepoLink: 'https://github.com/tanany1/xo-game.git'),
     Project(
-      name: 'Zawilan',
-      imageUrl:
-          'https://drive.google.com/uc?id=1ElTwguynMLqhS295-IE7bTTabsZGZp8s',
-      description:
-          'Zwailan is an education app based on units and sections system, you start by sign up on app and wait until the teacher accept your join request.',
-      previewLink: 'https://youtu.be/g92W-SmfkKc',
-      googlePlay:
-          'https://play.google.com/store/apps/details?id=com.radyhaggag.zawilan',
-    ),
+        name: 'Ai Weather',
+        imageUrl: '',
+        description:
+            'Application Integrate Weather APi To Show Forecast And AI Model To Predict That We Can Go Outside Or no.',
+        githubRepoLink: 'https://github.com/tanany1/cellula_app_one.git'),
+    Project(
+        name: 'News App',
+        imageUrl: '',
+        description: 'Application Integrate News APi To Show News.',
+        githubRepoLink: 'https://github.com/tanany1/news_app.git'),
+    Project(
+        name: 'ToDo App',
+        imageUrl: '',
+        description: 'Application To Manage Tasks.',
+        githubRepoLink: 'https://github.com/tanany1/ToDo-App.git'),
+    Project(
+        name: 'Islami App',
+        imageUrl: '',
+        description: 'Islamic Application Show The Quran And Ahadeth And Sebha.',
+        githubRepoLink: 'https://github.com/tanany1/Islami-app.git'),
   ];
 }
