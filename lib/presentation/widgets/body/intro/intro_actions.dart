@@ -59,7 +59,7 @@ class IntoActions extends StatelessWidget {
 }
 
 void _openCV() async {
-  const url = 'https://drive.google.com/file/d/16VWVu0jyqTFzc9KcTCHGn-k2K7HJNPDc/view?usp=drive_link';
+  const url = 'https://drive.google.com/file/d/16W-D2k8t_Glu0D7jpCjVHwpXFePZh128/view?usp=sharing';
   if (await canLaunchUrl(Uri.parse(url))) {
     await launchUrl(Uri.parse(url), webOnlyWindowName: '_blank');
   } else {
