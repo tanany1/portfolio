@@ -16,7 +16,7 @@ abstract class AppConstants {
       service: 'Backend & APIs',
       logo: AppAssets.stateManagement,
       description:
-          'Firebase (Auth, Firestore, Realtime DB, Storage)'
+          'Firebase (Auth, Firestore, Realtime DB, Storage)\n'
               'REST APIs (http, Retrofit)\n'
     ),
     CustomService(
