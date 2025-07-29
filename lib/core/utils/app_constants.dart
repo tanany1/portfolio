@@ -145,5 +145,12 @@ abstract class AppConstants {
           'Desktop quiz game created for Talabat Egypt’s advertising vending machine.',
       githubRepoLink: 'https://github.com/tanany1/talabat.git',
     ),
+    Project(
+      name: 'Smart Garden',
+      imageUrl: '',
+      description:
+      'A Mock_up For Smart Garden Controlled by Mobile App , the Integration Between App and Hardware Using Realtime Database From firebase Console To send Control Signal. ',
+      githubRepoLink: 'https://github.com/tanany1/smart_farming.git',
+    ),
   ];
 }
